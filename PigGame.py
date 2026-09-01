@@ -1,10 +1,10 @@
-# **Pig Game is a game where a group of players (at least 2) take turn on rolling a dice, and each time they roll, the number on the dice adds up to their score. However, if number 1 is rolled, the player lose all the score of that round (only the score up to previous round remain). The first person to reach the max score, wins.
+# **Pig Game is a game where a group of players (at least 2) take turn on rolling a die, and each time they roll, the number on the die adds up to their score. However, if number 1 is rolled, the player lose all the score of that round (only the score up to previous round remain). The first person to reach the max score, wins.
 #You need to end the game if you think your score is over the max score! Or else once you roll 1, you will lose all the score for that round.
 #The code written here lets the last player number to finish even if the previous player won already. 
 
 import random
 
-#def function to define number of dice rolls between 1 and 6
+#def function to define number of die rolls between 1 and 6
 def roll():
     min_value = 1
     max_value = 6
